@@ -16,6 +16,9 @@ private String owner;
         owner = "";
     }
 
+    public static void setSerialNumber(int serialNumber) {
+    }
+
     // getter and setters
     public int getSerialnumber() {
         return serialnumber;
@@ -29,15 +32,22 @@ private String owner;
         return model;
     }
 
-    public void setModel(String model) {
-        this.model = model;
+    public static void setModel(String model)
+
+
+
+
+
+
+    {
+        
     }
 
     public String getCarrier() {
         return carrier;
     }
 
-    public void setCarrier(String carrier) {
+    public static void setCarrier(String carrier) {
         this.carrier = carrier;
     }
 
@@ -45,7 +55,7 @@ private String owner;
         return phoneNumber;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
+    public static void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
@@ -53,7 +63,7 @@ private String owner;
         return owner;
     }
 
-    public void setOwner(String owner) {
+    public static void setOwner(String owner) {
         this.owner = owner;
     }
 
